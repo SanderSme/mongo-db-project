@@ -45,7 +45,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('*', (req, res) => {
-    res.send("Hello again I am working") 
+    res.send("😒") 
 });
 
 // create a new device
